@@ -1,4 +1,12 @@
 
+// DEVICE ALERT
+let size=window.innerWidth;
+if(size<650)
+{
+    alert("THIS GAME CAN ONLY BE PLAYED ON COMPUTER");
+}
+
+// GAME CODE
 let inputDir = { x: 0, y: 0 };
 
 const foodsound = new Audio("food sound.wav")
